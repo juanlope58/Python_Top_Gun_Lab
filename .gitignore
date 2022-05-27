@@ -1,0 +1,6 @@
+*.class
+*.json
+.idea/
+*.iml
+*.xml
+__pycache__
