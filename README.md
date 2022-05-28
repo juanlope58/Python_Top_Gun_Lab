@@ -1,1 +1,1 @@
-## Acá están todos los talleres programados en el Python Top Gun Lab
+## Talleres del Python Top Gun Lab: Juan Carlos Lopera Alvarez
