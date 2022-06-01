@@ -1,4 +1,13 @@
-'''Programa que recibe datos personales de 3 usuarios y los muestra por pantalla'''
+'''Realizar un programa que le solicite a 3 usuarios ingresar por teclado información personal, la información 
+de cada usuario se debe guardar en una estructura de colección inmutable, luego mostrar por pantalla la 
+información de los usuarios agrupada en una estructura de colección mutable.
+La información para solicitar es:
+a. Nombres y apellidos.
+b. Ocupación.
+c. Edad.
+d. Ciudad.
+e. Número de contacto.
+f. Correo electrónico.'''
 
 data=[]
 data.append(input("Hello, User 1, What's your full name?"))

@@ -1,3 +1,7 @@
+'''La siguiente matriz (o lista con listas anidadas) debe cumplir que el cuarto elemento de cada fila 
+sea la suma de los tres primeros elementos de la fila respectiva. Si nota las sumas que se encuentran 
+están erróneas, debe modificarlas dando 2 soluciones, una con append y otra con slicing.'''
+
 matriz = [ [2, 4, 3], [8, 3, 4], [7, 1, 3], [9, 2, 1] ]
 
 # Utilizando append para agregar a cada sublista un elemento con la suma de sus elementos anteriores

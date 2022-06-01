@@ -1,3 +1,14 @@
+'''Debes utilizar todo lo que sabes sobre los strings, las listas y sus métodos o funciones 
+para transformar el siguiente texto:
+thor lanzó su martillo#flash ha fallado por un pie! -gritó Loki Laufeyson#dos pies -le corrigió Hulk#flash menea la cabeza como disgustado… -agrega el comentarista
+En:
+Thor lanzó su martillo…
+
+- ¡Flash ha fallado por un pie! -gritó Loki Laufeyson.
+- Dos pies le corrigió Hulk.
+- Flash menea la cabeza como disgustado… -agrega el comentarista.'''
+
+
 text = "thor lanzó su martillo#flash ha fallado por un pie! -gritó Loki Laufeyson#dos pies -le corrigió Hulk#flash menea la cabeza como disgustado… -agrega el comentarista"
 
 lines = text.split("#") ## Separo el texto en los renglones que debe tener
