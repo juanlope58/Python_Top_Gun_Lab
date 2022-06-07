@@ -10,6 +10,6 @@ for i in range(longitud):
                 print("* * *", end="")  # Con la intención de hacer más cuadrado el tablero, agregué espacios entre los asteriscos
             else:
                 print("      ",end="")        
-        print()
+        print()                         # Doy salto de linea
         j=0
     
