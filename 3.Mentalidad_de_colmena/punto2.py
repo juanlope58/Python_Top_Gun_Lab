@@ -42,6 +42,14 @@ def convert(num):
 # Como anotación, la función para codificar y decodificar es la misma.
 ###########
 
-message = input("Cuál es el mensaje que quieres codificar o decodificar?")
-coded_message = encode(message)
-print(coded_message)
+option = input("""¿Qué quieres hacer?
+                1. Codificar un mensaje.
+                2. Decodificar un mensaje\n""")
+if option=='1':
+    coded_message = encode(input("Escriba el mensaje a codificar:\n"))  ## Llamado a la función enviando como argumento
+                                                                        ## El mensaje que ingrese el usuario  
+elif option == '2':
+    coded_message = encode(input("Escriba el mensaje a decodificar:\n"))
+else:
+    coded_message = "Opción incorrecta"
+print("El resultado es:\n"+coded_message+"\n")
